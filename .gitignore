@@ -6,3 +6,13 @@ train.bat
 __pycache__
 */**/__pycache__
 logs
+trained_models
+training_images
+.ipynb_checkpoints/
+core
+latent_diffusion.egg-info/
+model.ckpt
+outputs/
+regularization_images/
+scripts/.ipynb_checkpoints/
+src/
