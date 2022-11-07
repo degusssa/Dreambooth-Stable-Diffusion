@@ -6,15 +6,17 @@ project_name="project_name"
 
 # MAX STEPS
 # How many steps do you want to train for?
-max_training_steps=2020
+max_training_steps=2000
 
 # Match class_word to the category of the regularization images you chose above.
 class_word="person" # typical uses are "man", "person", "woman"
 
 # This is the unique token you are incorporating into the stable diffusion model.
-token="blaz"
+token="freya556"
 
 reg_data_root="regularization_images/person_ddim"
+
+echo $token
 
 rm -rf training_images/.ipynb_checkpoints
 python "main.py" \
